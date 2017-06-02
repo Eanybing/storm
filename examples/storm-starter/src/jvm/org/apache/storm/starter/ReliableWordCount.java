@@ -21,9 +21,7 @@ import java.util.Map;
 import java.util.Random;
 import java.util.UUID;
 
-/**
- * Created by ptgoetz on 11/11/16.
- */
+
 public class ReliableWordCount {
     public static class RandomSentenceSpout extends BaseRichSpout {
         private static final Logger LOG = LoggerFactory.getLogger(RandomSentenceSpout.class);

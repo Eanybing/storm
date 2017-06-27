@@ -1,4 +1,15 @@
 ﻿## 1.1.1
+ * STORM-2598: Add proxy server option for dependency resolver
+ * STORM-2568: Fix getTopicsString
+ * STORM-2555: handle impersonation properly for HBase delegation token
+ * STORM-2551: Thrift client socket timeout
+ * STORM-2563: Remove the workaround to handle missing UGI.loginUserFromSubject
+ * STORM-2553: Add support for password in JedisCluster
+ * STORM-2562: Use stronger key size for blow fish key generator and remove printStackTrace
+ * STORM-2484: Add Flux support for bolt+spout memory configuration
+ * STORM-2552: KafkaSpoutMessageId should be serializable
+ * STORM-2557: A bug in DisruptorQueue causing severe underestimation of queue arrival rates
+ * STORM-2449: Ensure same key appears only once in State iterator
  * STORM-2536: excludes jersey 1.x from storm-autocreds 
  * STORM-2516: Fix timing issues with testPrepareLateTupleStreamWithoutBuilder
  * STORM-2489: Overlap and data loss on WindowedBolt based on Duration
